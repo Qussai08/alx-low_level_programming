@@ -20,7 +20,7 @@ putchar('0' + (j % 10));
 if (i == 98 && j == 99)
 continue;
 putchar(',');
-puchar(' ');
+putchar(' ');
 }
 }
 putchar('\n');
