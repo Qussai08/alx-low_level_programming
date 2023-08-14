@@ -14,7 +14,7 @@ putchar('0' + i++);
 if (i != 10)
 {
 putchar(',');
-puchar(' ');
+putchar(' ');
 }
 }
 putchar('\n');
