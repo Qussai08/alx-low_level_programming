@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /*
- *betty style doc for function main goes there 
- *Description: This is the main function
- */
+ * betty style doc for function main goes there
+ * Description: This is the main function
+*/
 int main(void)
 {
 int n;
