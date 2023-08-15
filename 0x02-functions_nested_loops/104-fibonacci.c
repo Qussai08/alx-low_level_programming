@@ -11,7 +11,7 @@ int main(void)
 {
 int i;
 unsigned long long int j = 1, z = 2;
-printf("%ld, %ld, ", j, z);
+printf("%llu, %llu, ", j, z);
 for (i = 0; i < 96; i++)
 {
 z += j;
