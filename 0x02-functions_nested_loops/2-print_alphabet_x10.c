@@ -1,5 +1,3 @@
-#include<stdio.h>
-
 /*
  * print_alphabet_x10 Function
  * Description: Print 10 times the Alphabet
@@ -13,8 +11,9 @@ while (i < 10)
 char c = 'a';
 while (c <= 'z')
 {
-_putchar(c);
+_putchar(c++);
 }
+i++;
 _putchar('\n');
 }
 }
