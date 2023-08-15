@@ -18,7 +18,7 @@ for (i = 0; i < 48; i++)
 z += j;
 j = z - j;
 if (i == 47)
-printf("%ld ", z);
+printf("%ld\n", z);
 else
 printf("%ld, ", z);
 }
