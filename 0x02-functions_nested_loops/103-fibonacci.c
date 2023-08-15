@@ -20,6 +20,6 @@ j = z - j;
 if (z % 2 == 0)
 sum += z;
 }
-printf("%ld", sum);
-return(0);
+printf("%ld\n", sum);
+return (0);
 }
