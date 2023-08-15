@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 Function
- * 
- * Description: Print 10 times the Alphabet
- */
+  * print_alphabet_x10 - Print 10 times the Alphabet
+  * 
+  * Return: void 
+  */
 
 void print_alphabet_x10(void)
 {
