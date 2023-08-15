@@ -10,8 +10,7 @@
 int main(void)
 {
 int i;
-unsigned long j = 1;
-unsigned long z = 2;
+unsigned long int j = 1, z = 2;
 printf("%ld, %ld, ", j, z);
 for (i = 0; i < 96; i++)
 {
