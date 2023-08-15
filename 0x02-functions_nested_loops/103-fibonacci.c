@@ -9,7 +9,6 @@
 
 int main(void)
 {
-int i;
 long j = 1;
 long z = 2;
 long sum = z;
