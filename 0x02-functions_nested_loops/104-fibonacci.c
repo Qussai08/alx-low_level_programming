@@ -17,8 +17,11 @@ for (i = 0; i < 96; i++)
 {
 z += j;
 j = z - j;
+if(i == 95)
+printf("%ld\n", z);
+else
 printf("%ld, ", z);
 }
 
-return(0);
+return (0);
 }
