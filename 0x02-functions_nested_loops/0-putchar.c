@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * Main Function
  * Description: This is the entry point of the program
  */
