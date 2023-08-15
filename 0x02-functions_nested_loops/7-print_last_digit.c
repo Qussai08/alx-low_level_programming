@@ -1,4 +1,6 @@
-/*
+#include "main.h"
+
+/**
  * Prototype: int print_last_digit(int);
  * Description: Returns the last digit of an integer
  * Return: integer

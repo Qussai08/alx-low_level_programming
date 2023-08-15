@@ -1,4 +1,11 @@
 #include <stdio.h>
+#include "main.h"
+
+/**
+ * Main - Entry point
+ *
+ * Return: Always 0
+ */
 
 int main(void)
 {

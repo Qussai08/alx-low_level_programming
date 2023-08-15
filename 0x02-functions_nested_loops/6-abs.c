@@ -1,4 +1,6 @@
-/*
+#include "main.h"
+
+/**
  * Prototype: int _abs(int);
  * Descrription: Finds the absolute value of an integer
  * Return: integer

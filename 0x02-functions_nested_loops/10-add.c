@@ -1,4 +1,6 @@
-/*
+#include "main.h"
+
+/**
  * Prototype: int add(int, int);
  * Description: Adds two integers
  * Return: Integer

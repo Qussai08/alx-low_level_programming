@@ -1,4 +1,6 @@
-/*
+#include "main.h"
+
+/**
  * Prototype: void times_table(void);
  * Description: prints the 9 times table, starting with 0
  */
