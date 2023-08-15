@@ -10,14 +10,14 @@
 int main(void)
 {
 int i;
-long j = 1;
-long z = 2;
+unsigned long j = 1;
+unsigned long z = 2;
 printf("%ld, %ld, ", j, z);
 for (i = 0; i < 96; i++)
 {
 z += j;
 j = z - j;
-if(i == 95)
+if (i == 95)
 printf("%ld\n", z);
 else
 printf("%ld, ", z);
