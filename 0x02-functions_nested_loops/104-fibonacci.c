@@ -17,9 +17,9 @@ for (i = 0; i < 96; i++)
 z += j;
 j = z - j;
 if (i == 95)
-printf("%llu\n", z);
+printf("%lu\n", z);
 else
-printf("%llu, ", z);
+printf("%lu, ", z);
 }
 
 return (0);
