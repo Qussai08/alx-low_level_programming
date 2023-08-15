@@ -10,8 +10,8 @@
 int main(void)
 {
 int i;
-unsigned long long int j = 1, z = 2;
-printf("%llu, %llu, ", j, z);
+unsigned long int j = 1, z = 2;
+printf("%lu, %lu, ", j, z);
 for (i = 0; i < 96; i++)
 {
 z += j;
