@@ -1,11 +1,10 @@
 #include<stdio.h>
-/*
- * Prototype: void print_to_98(int n);
- * Numbers must be separated by a comma, followed by a space
- * Numbers should be printed in order
- * The first printed number should be the number passed to your function
- * The last printed number should be 98
- */
+/**
+  * print_to_98 - Prints all natural numbers from n to 98
+  * @n: The number to start printing from
+  *
+  * Return: Always 0.
+  */
 
 void print_to_98(int n)
 {
