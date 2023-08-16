@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Return: Always 0
  */
@@ -10,15 +10,17 @@
 int main(void)
 {
 int i;
-long j = 1;
-long z = 2;
-printf("%ld, %ld, ", j, z);
+unsigned long int j = 1, z = 2;
+printf("%lu, %lu, ", j, z);
 for (i = 0; i < 96; i++)
 {
 z += j;
 j = z - j;
-printf("%ld, ", z);
+if (i == 95)
+printf("%lu\n", z);
+else
+printf("%lu, ", z);
 }
 
-return(0);
+return (0);
 }

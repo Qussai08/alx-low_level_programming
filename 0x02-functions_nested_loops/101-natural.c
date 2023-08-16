@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Return: Always 0
  */
@@ -18,7 +18,7 @@ if (i % 3 == 0 || i % 5 == 0)
 sum += i;
 i++;
 }
-printf("%d", sum);
+printf("%d\n", sum);
 
 return (0);
 }

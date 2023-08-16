@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * Prototype: int print_last_digit(int);
- * Description: Returns the last digit of an integer
- * Return: integer
- */
-
+  * print_last_digit - Prints the last digit of a number
+  * @n: The number to be treated
+  *
+  * Return: Value of the last digit of number
+  */
 int print_last_digit(int n)
 {
-if (n < 0)
-n *= -1;
-int d = n % 10;
+int d;
+d = n % 10;
+if (d < 0)
+d *= -1;
 _putchar('0' + d);
 return (d);
 }

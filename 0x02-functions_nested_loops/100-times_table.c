@@ -1,24 +1,22 @@
 #include "main.h"
 
 /**
- * Prototype: void print_times_table(int n);
- * If n is greater than 15 or less than 0 the function should not print anything
- */
+  * print_times_table - Prints a multiplication table up to param
+  * @n: The number to be treated
+  *
+  * Return: Number matrix
+  */
 
 void print_times_table(int n)
 {
+int i, j, x;
 if (n > 15 || n < 0)
 return;
-
-int i;
-int j;
-
-for (i  = 0; i <=n; i++)
+for (i  = 0; i <= n; i++)
 {
 for (j = 0; j <= n; j++)
 {
-int x = i * j;
-
+x = i * j;
 if (x > 99)
 {
 _putchar(' ');

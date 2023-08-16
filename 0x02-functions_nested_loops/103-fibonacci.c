@@ -2,14 +2,13 @@
 #include "main.h"
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Return: Always 0
  */
 
 int main(void)
 {
-int i;
 long j = 1;
 long z = 2;
 long sum = z;
@@ -21,6 +20,6 @@ j = z - j;
 if (z % 2 == 0)
 sum += z;
 }
-printf("%ld", sum);
-return(0);
+printf("%ld\n", sum);
+return (0);
 }
