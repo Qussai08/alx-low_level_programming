@@ -13,7 +13,8 @@ int i = 1;
 while (n--)
 {
 if (n < 0)
-break;
+n = 0;
+continue;
 while (i--)
 {
 _putchar(' ');
