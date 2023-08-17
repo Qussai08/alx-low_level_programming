@@ -6,6 +6,7 @@
  *
  * Return: void
  */
+
 void print_triangle(int size)
 {
 int i, j, h;
@@ -21,7 +22,7 @@ for (j = size - i; j > 1; j--)
 {
 _putchar(32);
 }
-for (h = 0; h <= x; h++)
+for (h = 0; h <= i; h++)
 {
 _putchar(35);
 }
