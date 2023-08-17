@@ -16,6 +16,7 @@ while (n--)
 i = temp - n;
 if (n < 0)
 {
+_putchar('\n');
 break;
 }
 while (i--)
@@ -25,5 +26,4 @@ _putchar(' ');
 _putchar(92);
 _putchar('\n');
 }
-_putchar('\n');
 }
