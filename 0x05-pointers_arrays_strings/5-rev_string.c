@@ -12,6 +12,7 @@ void rev_string(char *s)
 int i, c, k;
 char *a, aux;
 a = s;
+c = 0;
 while (s[c] != '\0')
 {
 c++;
