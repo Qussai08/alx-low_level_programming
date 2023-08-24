@@ -31,7 +31,8 @@ c++;
 }
 else
 {
-return (s1[c] - s2[c]);
+x = s1[c] - s2[c];
+return (x);
 }
 }
 return (0);
