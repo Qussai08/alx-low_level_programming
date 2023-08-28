@@ -16,7 +16,7 @@ while (s[i])
 {
 if (s[i] == c)
 {
-a = @s[i];
+a = &s[i];
 break;
 }
 i++;
