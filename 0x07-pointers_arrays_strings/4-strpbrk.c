@@ -21,7 +21,8 @@ while (accept[j])
 if (s[i] == accept[j])
 {
 c = &s[i];
-return (c);
+s[i + 1] = '\0';
+break;
 }
 j++;
 }
