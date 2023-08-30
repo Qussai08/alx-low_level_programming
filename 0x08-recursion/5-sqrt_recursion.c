@@ -14,7 +14,7 @@ if (sqr > n)
 {
 return (-1);
 }
-else if (sqrt == n)
+else if (sqr == n)
 {
 return (i);
 }
