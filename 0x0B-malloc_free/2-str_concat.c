@@ -1,45 +1,53 @@
-#include <stdlib.h>
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
-* str_concat - function that concatenates two strings,
-* using dynamic memory allocation (malloc).
-*
-* @s1: a pointer to 1st string
-* @s2: a pointer to 2nd string
-*
-* Return:  a pointer to the string, or NULL if it fails.
-*/
-
+  * str_concat - Concatenates two strings of any size
+  * @s1: the first string to concatenate
+  * @s2: the second string to concatenate
+  *
+  * Return: the two strings concatenated
+  */
 char *str_concat(char *s1, char *s2)
 {
-	char *newstr, *temp;
-	unsigned int size, size1 = 0, size2 = 0, i = 0;
+	int i = 0, j = 0, k = 0, l = 0;
+	char *s;
 
-	if (!s1)
+	if (s1 == NULL)
 		s1 = "";
-	else
-		while (*(s1 + size1++))
-			;
 
-	if (!s2)
+	if (s2 == NULL)
 		s2 = "";
-	else
-		while (*(s2 + size2++))
-			;
 
-	size = size1 + size2 - 1;
-	newstr = malloc(size * sizeof(char));
+	while (s1[i])
+		i++;
 
-	if (!newstr)
+	while (s2[j])
+		j++;
+
+	l = i + j;
+	s = malloc((sizeof(char) * l) + 1);
+
+	if (s == NULL)
 		return (NULL);
 
-	temp = newstr;
-	while (*s1)
-		*temp++ = *s1++;
+	j = 0;
 
-	while (*s2)
-		*temp++ = *s2++;
+	while (k < l)
+	{
+		if (k <= i)
+			s[k] = s1[k];
 
-return (newstr);
+		if (k >= i)
+		{
+			s[k] = s2[j];
+			j++;
+		}
+
+		k++;
+	}
+
+	s[k] = '\0';
+	return (s);
 }
